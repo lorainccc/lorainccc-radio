@@ -8,6 +8,9 @@
  */
 
 get_header(); ?>
+<div class="small-12 medium-12 large-12 columns gateway-header hide-for-print">
+	<?php the_post_thumbnail(); ?>
+</div>
 <div class="row page-content">
 <div class="small-12 columns nopadding show-for-small-only"><!--Begin Mobile Side Menu -->
  <div class="small-12 medium-12 large-12 columns nopadding">
