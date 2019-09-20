@@ -54,7 +54,8 @@ h3 a{font-weight:600;color:#0055a5}/*!
 Section 1: Foundation
 *//*!
 Section 2: Content
-*/a:focus{text-decoration:underline}
+*/div.entry-content a.blue-button,div.entry-content a.blue-button-250,div.entry-content a.blue-button-300{text-decoration:none}
+div.entry-content a,a:focus{text-decoration:underline}
 div.content table thead,table tbody,table tfoot{border:0}span.event_entries article{box-shadow:0 -20px 20px -20px rgba(216,216,216,0.8);-moz-box-shadow:0 -20px 20px -20px rgba(216,216,216,0.8);-webkit-box-shadow:0 -20px 20px -20px rgba(216,216,216,0.8);padding-top:2.5rem;padding-bottom:2.5rem}
 div.columns.mylccc-news-container:first-child{padding-top:0}div.columns.mylccc-news-container{padding-top:2.5rem}
 div.columns.nopadding.event-pagination{padding-top:2.5rem}div.columns.mylccc-news-container div.row hr{margin:-80px auto 0;height:10px;padding:1rem 0;width:100%}
@@ -80,7 +81,7 @@ a img.alignleft{float:left;margin:5px 20px 20px 0}a img.aligncenter{display:bloc
 .screen-reader-text:focus{background-color:#f1f1f1;border-radius:3px;-webkit-box-shadow:0 0 2px 2px rgba(0,0,0,0.6);box-shadow:0 0 2px 2px rgba(0,0,0,0.6);clip:auto !important;color:#21759b;display:block;font-size:14px;font-size:.875rem;font-weight:bold;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}
 .eventcontainer .eventhumbnail{padding-top:12px;padding-left:0;padding-right:.5rem}
 .entry-footer{background:#fff}article{background:#fff}.gateway-header{padding:0}.sidebar-widget{padding-top:2.7rem}
-.breadcrumb-container{padding-top:20px;padding-left:2rem}a.button{margin:0 0 1rem 0}
+.breadcrumb-container{padding-top:20px;padding-left:2rem}.breadcrumb-container a{text-decoration:underline}a.button{margin:0 0 1rem 0}
 .lccc_event_header{background:#0c3b78;color:#fefefe;margin-top:0;padding:0 0 .5rem 1.5rem}
 #home-news h2.headertext{margin:0}.home-hero{width:100%;background-image:url(/wp-content/themes/lorainccc/images/lccc_diningbookstore.jpg);background-position:center center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover;height:450px}
 .hero-image{width:100%;background-position:center center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
@@ -286,7 +287,7 @@ ul.sub-menu{padding-top:15px}li.current-menu-ancestor,li.current-menu-item{backg
 .main-navigation ul>li.current-menu-ancestor>ul>li{border-top:1px solid #fff}.main-navigation ul>li.current-menu-ancestor>ul>li.current-menu-item>a{font-weight:bold}
 .dropdown .menu-item{z-index:50}/*!
 Section 6: Footer
-*/footer{margin-top:5rem;background:#0c3b78;padding:2rem 0 4rem 0;font-size:.75rem}
+*/footer a{text-decoration:underline}footer{margin-top:5rem;background:#0c3b78;padding:2rem 0 4rem 0;font-size:.75rem}
 footer h2{font-size:.75rem;color:#ffc600;text-transform:uppercase;font-weight:700}
 footer .menu>li>a{padding:0 .25rem 0 0}footer a,footer p{color:#fefefe;font-size:.75rem}
 footer a:hover,footer a:focus{color:#fff}footer .footer-logo{margin-bottom:2.5rem}

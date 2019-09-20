@@ -265,10 +265,10 @@ function lorainccc_radio_foundation_scripts() {
 	/* Add Audio Player Support */
 	
 	wp_deregister_script('mediaelement');
-	wp_enqueue_script( 'lorainccc_radio-mediaelement-js', get_stylesheet_directory() . '/mediaelement/mediaelement.js', array( 'jquery' ), '1', true );
-	wp_enqueue_script( 'lorainccc_radio-mediaelement-init-js', get_stylesheet_directory() . '/mediaelement-init.js', array( 'jquery' ), '1', true );
+	wp_enqueue_script( 'lorainccc_radio-mediaelement-js', get_stylesheet_directory_uri() . '/mediaelement/mediaelement.js', array( 'jquery' ), '1', true );
+	wp_enqueue_script( 'lorainccc_radio-mediaelement-init-js', get_stylesheet_directory_uri() . '/mediaelement-init.js', array( 'jquery' ), '1', true );
 
-	wp_enqueue_style( 'lorainccc_radio-mediaelement-style', get_stylesheet_directory() . '/mediaelement/mediaelementplayer.min.css', array(), '1' );
+	wp_enqueue_style( 'lorainccc_radio-mediaelement-style', get_stylesheet_directory_uri() . '/mediaelement/mediaelementplayer.min.css', array(), '1' );
 	
 	
 wp_localize_script( 'lorainccc_radio-function-script', 'screenReaderText', array(
